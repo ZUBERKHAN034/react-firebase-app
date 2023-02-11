@@ -3,7 +3,10 @@ function Navbar() {
   return (
     <header>
       <Link to={"/"} className="header-link">
-        <h1>Login</h1>
+        <h1>Authentication</h1>
+      </Link>
+      <Link to={"/crud"} className="header-link">
+        <h1>Crud</h1>
       </Link>
     </header>
   );

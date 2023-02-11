@@ -19,6 +19,14 @@ const firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
+//authenticate user with Firebase
 const auth = firebase.auth();
 
-export { auth };
+//firestore database
+const firestore = firebase.firestore();
+//database schema for firestore
+const database = {
+  users: firestore.collection("users"),
+};
+
+export { auth, database };
