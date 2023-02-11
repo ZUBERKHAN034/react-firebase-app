@@ -1,7 +1,7 @@
-import Form from "./components/Form";
+import Authentication from "./components/Authentication";
 
 function App() {
-  return <Form />;
+  return <Authentication />;
 }
 
 export default App;
