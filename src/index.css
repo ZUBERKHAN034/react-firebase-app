@@ -57,3 +57,23 @@ button:hover {
   color: white;
   border: 1px solid rgba(252, 252, 252, 0.4);
 }
+
+header {
+  background-color: white;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+}
+
+.header-link {
+  text-decoration: none;
+}
+
+header h1 {
+  margin-left: 20px;
+  color: #50a3a2;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
