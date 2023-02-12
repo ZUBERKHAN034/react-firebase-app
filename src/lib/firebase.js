@@ -29,4 +29,6 @@ const database = {
   users: firestore.collection("users"),
 };
 
-export { auth, database };
+const storage = firebase.storage();
+
+export { auth, database, storage };
