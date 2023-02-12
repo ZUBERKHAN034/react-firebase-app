@@ -8,6 +8,9 @@ function Navbar() {
       <Link to={"/crud"} className="header-link">
         <h1>Crud</h1>
       </Link>
+      <Link to={"/storage"} className="header-link">
+        <h1>Storage</h1>
+      </Link>
     </header>
   );
 }
